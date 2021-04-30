@@ -77,6 +77,21 @@
     justify-content: space-evenly;
 }
 
+.section-title{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.section-title .draw {
+    background-color: #48BC84;
+    border-radius: 5px;
+    width: 10px;
+    height: 30px;
+    margin-right: 5px;
+}
+
 .snkr-card{
     margin-bottom: 20px;
     width: 160px;
