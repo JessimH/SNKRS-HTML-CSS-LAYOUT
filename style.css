@@ -157,3 +157,15 @@
     justify-content: space-evenly;
     list-style: none;
 }
+
+.footer ul a {
+    color: white;
+}
+
+.footer ul li{
+    transition: 0.2s ease-in-out;
+}
+
+.footer ul li:hover{
+    transform: scale(1.1);
+}
