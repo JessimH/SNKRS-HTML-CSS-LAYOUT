@@ -77,6 +77,10 @@
     justify-content: space-evenly;
 }
 
+.section-home {
+    margin-bottom: 40px;
+}
+
 .section-title{
     display: flex;
     align-items: center;
@@ -141,4 +145,15 @@
     background-color: #48BC84;
     color: white;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.footer ul {
+    padding-left: 0px;
+    justify-self: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
 }
