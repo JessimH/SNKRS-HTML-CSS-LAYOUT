@@ -45,6 +45,17 @@ a:hover{
 
 .dropdown-menu{
     border: none;
+    /* display: flex; */
+    padding: 10px;
+}
+
+.show{
+    display: flex !important;
+
+}
+
+.dropdown-menu li a{
+    border-radius: 5px;
 }
 
 .search{
@@ -125,11 +136,11 @@ a:hover{
 }
 
 .snkr-picture{
-    height: 30vh;
+    height: 40vh;
 }
 
 .snkr-product{
-    width: 30vh;
+    width: 40vh;
     border: 1px solid rgb(214, 214, 214);
     margin-bottom: 20px;
     display: flex;
@@ -153,6 +164,48 @@ a:hover{
         border-radius: 5px;
         transition: 0.2s ease-in-out;
     }
+}
+
+.types{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.types a{
+    padding: 7px;
+    border: 1px solid #48BC84;
+    border-radius: 5px;
+    color: #48BC84;
+    font-weight: 300;
+    font-size: 1.2em;
+    transition: 0.1s ease-in-out;
+}
+
+.types a:hover{
+    background-color: #48BC84;
+    color: white;
+}
+
+.colors{
+    margin-bottom: 20px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.colors p{
+    margin-right: 10px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.color{
+    width: 32px;
+    height: 32px;
+    border-radius: 999px;
+    margin-right: 10px;
+    border: 1px solid rgba(211, 211, 211, 0.356);
 }
 
 .snkr-nbrPic{
